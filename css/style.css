@@ -2,11 +2,12 @@ body {
     background-image: url(https://preview.colorlib.com/theme/gutim/img/hero-bg.jpg.webp);
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #111111;
+    
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     height: 900px;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
@@ -271,19 +272,20 @@ li {
     90% {right: 50px;}
     100%{right: 0px;} */
 }
-/* .container8 {
-    max-width: 1170px;
+.container8 {
+    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 100px;
+    background-color: rgb(222, 219, 219);
 }
-.container8  .expert {
+.expert {
+    padding-top: 50px;
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
     color: #eb3c5a;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    margin-bottom: 50px;
 }
 .container8 .forcards {
     display: flex;
@@ -317,15 +319,15 @@ li {
 .fortrainers:hover {
     width: 300px;
     height: 300px;
-} */
+}
 .container9 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     position: relative;
-    background-color: white;
-    margin-bottom: 350px;
+    background-color: rgb(222, 219, 219);
+    margin-bottom: 150px;
 }
 .card {
     height: 400px;
@@ -337,6 +339,7 @@ li {
     height: 350px;
     width: 350px;
     border-radius: 3px;
+    object-fit: cover;
 }
 .intro {
     color: red;
@@ -346,7 +349,7 @@ li {
     padding: 6px;
     box-sizing: border-box;
     position: absolute;
-    bottom: 120px;
+    bottom: 150px;
     background-color: white;
     transition: 1s;
     box-shadow: 5px 5px 20px orangered;
@@ -361,10 +364,12 @@ li {
     text-align: center;
 }
 .intro p {
+    display: none;
     font-size: 16px;
     margin: 20px;
     visibility: hidden;
     opacity: 0;
+    transition: display 2s ease;
 }
 .card:hover {
     cursor: pointer;
@@ -374,10 +379,674 @@ li {
     bottom: 130px;
     background-color:white;
     color: black;
+    opacity: 1;
+    transition: all 1s;
 }
 .card:hover .intro p {
     color: #111111;
     opacity: 1;
+    display: inherit;
     visibility: visible;
     text-align: center;
+    transition: all 3s;
+}
+.container10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: darkred;
+    margin-bottom: 150px;
+}
+.container10 .for-card h2 {
+    max-width: 430px;   
+    width: 100%;
+    font-weight: 600;
+    font-size: 36px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+.container10 .for-success p {
+    max-width: 690px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+.container11 {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    position: relative;
+}
+.container11 .for-background {
+    background-image: url(https://preview.colorlib.com/theme/gutim/img/banner-bg.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 650px;
+}
+.container11 .for-image {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    height: 100px;
+}
+.for-image img {
+    height: 604px;
+}
+.container11 .for-textcard h2 {
+    position: absolute;
+    color: #fff;
+    width: 450px;
+    font-size: 36px;
+    font-weight: 600;
+    top: 150px;
+    right: 120%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.container11 .for-textcard p {
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    top: 230px;
+    right: 115%;
+    width: 470px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.container11 .for-button a {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    top: 330px;
+    right: 200%;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #eb3c5a, #f67831) 1;
+    background-image: linear-gradient(to right, #eb3c5a, #f67831);
+    width: 160px;
+    height: 46px;
+    padding-top: 12px;
+    padding-left: 30px;
+}
+.container12 {
+    width: 100%;   
+    height: 900px;
+    background-image:linear-gradient(to bottom, white 65%, rgb(222, 219, 219) 35%);
+    margin: 0 auto; 
+}
+.container12 .for-header {
+    width: 420px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+.for-header h5 {
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+    
+}
+.for-cards {
+    display: flex;
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    justify-content: space-around;
+    z-index: 2;
+}
+.first-card {
+    width: 350px;
+    height: 600px;
+    background-color: white;
+}   
+ h4 {
+    color: white;
+    font-size: 36px;
+    height: 70px;
+    background-image: linear-gradient(to right, #eb3c5a, #f67831) ;
+    text-align: center;
+    padding-top: 15px;
+}
+.first-card p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.first-card .price {
+    display: inline-block;
+    color: #f67831;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.first-card .mo {
+    display: inline-block;
+    color: #6b6b6b;
+}
+.first-card .light {
+    color:#6b6b6b;
+    font-size: 16px;   
+}
+.first-card .bold {
+    color: red;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid  transparent;
+    border-top: 18px solid #f15d44;
+    
+  }
+.first-card a {
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #eb3c5a, #f67831) 1;
+    width: 160px;
+    height: 46px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.second-card {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+}
+h4 {
+    color: white;
+    font-size: 36px;
+    height: 70px;
+    background-image: linear-gradient(to right, #eb3c5a, #f67831) ;
+    text-align: center;
+    padding-top: 15px;
+}
+.second-card p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.second-card .price {
+    display: inline-block;
+    color: #f67831;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.second-card .mo {
+    display: inline-block;
+    color: #6b6b6b;
+}
+.second-card .light {
+    color:#6b6b6b;
+    font-size: 16px;   
+}
+.second-card .bold {
+    color: red;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid  transparent;
+    border-top: 18px solid #f15d44;
+    margin-left: 180px;
+  }
+.second-card a {
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #eb3c5a, #f67831) 1;
+    width: 160px;
+    height: 46px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid  transparent;
+    border-top: 18px solid #f15d44;
+    margin-left: 180px;
+  }
+.third-card {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+}
+h4 {
+    color: white;
+    font-size: 36px;
+    height: 70px;
+    background-image: linear-gradient(to right, #eb3c5a, #f67831) ;
+    text-align: center;
+    padding-top: 15px;
+}
+.third-card p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.third-card .price {
+    display: inline-block;
+    color: #f67831;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.third-card .mo {
+    display: inline-block;
+    color: #6b6b6b;
+}
+.third-card .light {
+    color:#6b6b6b;
+    font-size: 16px;   
+}
+.third-card .bold {
+    color: red;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid  transparent;
+    border-top: 18px solid #f15d44;
+    margin-left: 180px;
+  }
+.third-card a {
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #eb3c5a, #f67831) 1;
+    width: 160px;
+    height: 46px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.for-cards a:hover {
+    background-image: linear-gradient(to right, #eb3c5a, #f67831);
+    color: white;
+    transition:all 2s ;
+}
+
+.container13 {
+    width: 100%;  
+    height: 650px; 
+    background-color: rgb(222, 219, 219);
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.forcards6 {
+    width: 1250px;
+    height: 550px;
+    margin: 0 auto; 
+    color: white;
+    position: relative;
+    background-color: black;
+}
+.for-head5 h2{
+    position: absolute;
+    color: white;
+    top: 70px;
+    left: 280px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.for-head5 p {
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container13 .forName {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+input {
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.container13 .foremail {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+.container13 .forname {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.container13 .forphone {
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
+.container13 .forbutton {
+    border: 1px solid;
+    border-image: linear-gradient(to right, #eb3c5a, #f67831) 1;
+    background-image: linear-gradient(to right, #eb3c5a, #f67831);
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    padding-top: 10px;
+    padding-right: 315px;
+    padding-bottom: 10px;
+    padding-left: 315px;
+    
+}   
+.forbutton a {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.container13 .forimage1 img{
+    position: absolute;
+    left: 870px;
+    max-width: 380px;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.container14 {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.container14 .forsection {
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    
+}
+.forsection .forhead7 h6 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.forcards7 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.forfirst img{
+    /* width: 250px; */
+   margin-bottom: 30px;
+}
+.firstcard1 p {
+    color:#bdbdbd;
+    display: inline-block;
+}
+.firstcard1 a {
+    color: #f15d44;
+    font-weight: 400;
+}
+.firstcard1 h3 {
+    width: 330px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 15px;
+    font-size: 24px;
+}
+.container15 {
+    max-width: 1550px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.for-background {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #bdbdbd;
+}
+.forleftcard {
+    width: 760px;
+    height: 500px;
+    background-image: url("https://preview.colorlib.com/theme/gutim/img/footer-banner/footer-banner-1.jpg.webp");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position:center;
+    position: relative;
+    z-index: 1;
+}
+.forleftcard .forborderside {
+    width: 450px;
+    height: 310px;
+    border: 18px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.forleftcard p {
+    color: #f15d44;
+    font-weight: 600;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.forleftcard h2{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    top: 200px;
+    left: 50px;
+}
+.forleftcard .info {
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    top: 250px;
+}
+.forleftcard a {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #eb3c5a, #f67831 );
+    border: 2px solid;
+    border-image: linear-gradient(to right, #eb3c5a, #f67831) 1;
+    width: 160px;
+    height: 46px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    top: 300px;
+    left: 50px;
+}
+/* rightcard */
+.forrightcard {
+    width: 760px;
+    height: 500px;
+    background-image: url("https://preview.colorlib.com/theme/gutim/img/footer-banner/footer-banner-2.jpg.webp");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position:center;
+    position: relative;
+    z-index: 1;
+}
+.forrightcard .forborderside {
+    width: 450px;
+    height: 310px;
+    border: 18px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.forrightcard p {
+    color: #f15d44;
+    font-weight: 600;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.forrightcard h2{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    top: 200px;
+    left: 50px;
+}
+.forrightcard .info {
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    top: 250px;
+}
+.forrightcard a {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #eb3c5a, #f67831 );
+    border: 2px solid;
+    border-image: linear-gradient(to right, #eb3c5a, #f67831) 1;
+    width: 160px;
+    height: 46px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    top: 300px;
+    left: 50px;
+}
+.container16 {
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+    background-color: #111111;
+}
+.container16 .forup {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+.firstup  h3{
+    color: #f15d44;
+    margin-bottom: 25px;
+    margin-top: 100px;
+}
+.firstup p {
+    color: white;
+}
+.forfooterbanner {
+    background-image: url(https://preview.colorlib.com/theme/gutim/img/hero-bg.jpg.webp);
+    height: 150px;
+    width: 1200px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    position: relative;
+    margin-top: 100px;
+}
+.forfootertext {
+    position: absolute;
+    color: white;
+    padding-top: 45px;
+    margin-left: 80px;
+}
+.forfootertext h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.forfootertext p {
+    margin-top: 15px;
+}
+.foremail {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 30px;
+    margin-left: 750px;
+}
+.button {
+    position: absolute;
+    left: 275px;
+    background-color:#f15d44;
+    width: 60px;
+    height: 45px;
+}
+.button i {
+    color: white;
+    text-align: center;
+}
+.for-footer-text {
+    display: flex;
+}
+.for-footer-text .icons {
+    margin-left: 160px;
+}
+.for-footer-text p {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-right: 40px;
+}
+.for-footer-text a {
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.for-footer-text .icons1 i {
+    color: white;
+    font-size: 18px;
+    border: 1px solid #282828;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #282828;
+}
+.for-footer-text a i:hover {
+    border-image: linear-gradient(to right, #eb3c5a, #f67831) 1;
+    background-image: linear-gradient(to right, #eb3c5a, #f67831);
 }
